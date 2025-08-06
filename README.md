@@ -1,12 +1,53 @@
-# React + Vite
+# 📝 React Task Manager App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple **Task Manager web application** built using React (Class Components) and Bootstrap. It allows users to:
 
-Currently, two official plugins are available:
+- ✍️ Add, edit, and delete personal tasks.
+- 🔐 Login with email (stored in localStorage).
+- 💾 Persist tasks even after refresh or logout.
+- 👤 Supports basic Admin and user logic.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔐 User Login / Logout (with localStorage)
+- 📝 Add, Edit, and Delete Tasks
+- 👥 Per-user Task Storage
+- 🧠 Admin Logic Handling
+- 🌈 Beautiful UI using Bootstrap and Lucide icons
+- 📱 Responsive Design
+
+
+---
+
+## 🛠️ Technologies Used
+
+- [React.js](https://reactjs.org/) (Class Components)
+- [Bootstrap 5](https://getbootstrap.com/)
+- LocalStorage for data persistence
+| Library            | Purpose                              |
+|--------------------|--------------------------------------|
+| `react`            | Core frontend framework              |
+| `react-router-dom` | Routing for navigation               |
+| `lucide-react`     | Modern SVG icons                     |
+| `bootstrap`        | UI styling framework (CSS only)      |
+| `reactstrap`       | Bootstrap components in React        |
+
+---
+
+## 📦 Required Installations
+
+Run the following commands **after cloning** the project:
+
+```bash
+npm install react-router-dom
+npm install lucide-react
+npm install bootstrap
+npm install reactstrap
+
+
+
+
+
+
