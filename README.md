@@ -1,30 +1,12 @@
-# 📝 React Task Manager App
+# React + Vite
 
-This is a simple **Task Manager web application** built using React (Class Components) and Bootstrap. It allows users to:
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-- ✍️ Add, edit, and delete personal tasks.
-- 🔐 Login with email (stored in localStorage).
-- 💾 Persist tasks even after refresh or logout.
-- 👤 Supports basic Admin and user logic.
+Currently, two official plugins are available:
 
----
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## 🚀 Features
+## Expanding the ESLint configuration
 
-- ✅ Simple login system (localStorage-based)
-- ✅ Add/Edit/Delete tasks
-- ✅ Per-user task storage
-- ✅ Responsive Bootstrap UI
-- ✅ Admin support
-- ✅ Logout with task persistence
-
----
-
-## 🛠️ Technologies Used
-
-- [React.js](https://reactjs.org/) (Class Components)
-- [Bootstrap 5](https://getbootstrap.com/)
-- LocalStorage for data persistence
-
----
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
