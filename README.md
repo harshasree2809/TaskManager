@@ -26,6 +26,7 @@ This is a simple **Task Manager web application** built using React (Class Compo
 - [React.js](https://reactjs.org/) (Class Components)
 - [Bootstrap 5](https://getbootstrap.com/)
 - LocalStorage for data persistence
+
 | Library            | Purpose                              |
 |--------------------|--------------------------------------|
 | `react`            | Core frontend framework              |
